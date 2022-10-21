@@ -6,31 +6,76 @@
 
     <title>Contact</title>
 
-    <link rel="icon" href="/RESOURCES/favicon.jpg">
+    <link rel="icon" href="/RESOURCES/IMAGES/favicon.jpg">
 
     <link rel="stylesheet" href="/CSS/Assignment1.css">
     <link rel="stylesheet" href="/CSS/HeaderTop.css">
     <link rel="stylesheet" href="/CSS/TopNavigatorBar.css">
     <link rel="stylesheet" href="/CSS/BottomFooter.css">
 
+    <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/el_GR/sdk.js#xfbml=1&version=v15.0" nonce="dYRbsmKv"></script>
 
 </head>
+
 <body>
 <header class="header"></header>
-
-<div class="navbar">
+<!-- Navigator Bar -->
+<nav class="navbar">
     <a href="index.html">Home</a>
-    <a href="https://elearn.uoc.gr/course/view.php?id=3757">E-learn CS359</a>
     <a href="Assignment1.html">Assignment 1</a>
-    <a href="About.html" class="right">About</a>
-</div>
+    <a href="https://elearn.uoc.gr/course/view.php?id=3757" class="right">E-learn CS359</a>
+</nav>
 
+<!-- Embed Video -->
+<section id="top-section">
+    <h1>Οδηγός Σπουδών CSD</h1>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Q6wSFTNEm74" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <article>
+        <ol>
+            <li>Ένα βίντεο από το παλιό κτήριο του CSD</li>
+            <li>Τι γίνεται στο τμήμα επιστήμης υπολογιστών Κρήτης?</li>
+            <li>Υπάρχει ζωή μετά το πτυχίο?</li>
+            <li>Η πτέρυγα Γ υπήρχε ή ήταν ένας μύθος του lovecraft?</li>
+            <li>Ποιος είναι ο καλύτερος χρόνος submit?</li>
+            <li>Τι θα φορεθεί περισσότερο φέτος το καλοκαίρι Java ή C++?</li>
+            <li>Ποίος κρύβεται πίσω από τον john Rambo?</li>
+            <li>Γιατί εμφανίζονται pixel γύρο από τον Γιάννη?</li>
+            <li>Όλα τα παραπάνω είναι άσχετα με το βίντεο...αλλά δείτε το!</li>
+        </ol>
+    </article>
+</section>
 
+<!-- Share FB Link -->
+<section>
 
+    <p>
+       Αν πιστεύεις πως δε θα πάρεις ποτέ πτυχίο αυτό το Share Button είναι για σένα
+    </p>
+    <div class="fb-share-button" data-href="https://eservices.oaed.gr/pls/apex/f?p=110:LOGIN_DESKTOP:105905636756716"
+         data-layout="button_count" data-size="large"><a target="_blank" class="fb-xfbml-parse-ignore"
+         href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feservices.oaed.gr%2Fpls%2Fapex%2Ff%3Fp%3D110%253ALOGIN_DESKTOP%253A105905636756716&amp;src=sdkpreparse">Κοινοποίηση</a>
+    </div>
+</section>
+<br><br>
 
+<!-- Audio File Player -->
+<section>
+    <h2>Random Soundtrack</h2>
+    <audio controls autoplay>
+        <source src="RESOURCES/MP3/Sound_of_da_Police.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</section>
 
-<div class="footer">
-    <h2>Footer</h2>
-</div>
+<br><br><br><br><br><br><br><br>
+
+<!-- Footer -->
+<footer class="footer">
+    <h2>© 2022 John Somarakis</h2>
+    <p>Version:1.0</p>
+</footer>
 </body>
 </html>

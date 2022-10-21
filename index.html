@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,50 +10,86 @@
     <link rel="stylesheet" href="/CSS/HeaderTop.css">
     <link rel="stylesheet" href="/CSS/TopNavigatorBar.css">
     <link rel="stylesheet" href="/CSS/BottomFooter.css">
-    <link rel="icon" href="RESOURCES/favicon.jpg">
+    <link rel="icon" href="RESOURCES/IMAGES/favicon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 <header class="header"></header>
 
-<div class="navbar">
+<nav class="navbar">
     <a href="index.html">Home</a>
-    <a href="https://elearn.uoc.gr/course/view.php?id=3757">E-learn CS359</a>
     <a href="Assignment1.html">Assignment 1</a>
-    <a href="About.html" class="right">About</a>
-</div>
+    <a href="https://elearn.uoc.gr/course/view.php?id=3757" class="right">E-learn CS359</a>
+</nav>
 
 <div class="row">
-    <div class="side">
-        <h2>About Me</h2>
-        <h5>Photo of me:</h5>
-        <div class="myPhoto_giannis_somarakis" style="height:200px;">Image</div>
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-        <h3>More Text</h3>
-        <p>Lorem ipsum dolor sit ame.</p>
-        <div class="fakeimg" style="height:60px;"></div><br>
-        <div class="fakeimg" style="height:60px;"></div><br>
-        <div class="fakeimg" style="height:60px;"></div>
-    </div>
-    <div class="main">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-        <br>
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
+    <!-- Share FB Link -->
+    <section class="side">
+        <h2>Σχετικά με εμένα</h2>
+        <h5>Μια παλιά μου φωτογραφία:</h5>
+        <div class="myPhoto_giannis_somarakis"></div>
+        <p>Είμαι ο Γιάννης και σπουδάζω στο τμήμα επιστήμης υπολογιστών του Πανεπηστημίου Κρήτης</p>
+        <h3>Οι βαθμοί μου στο ΗΥ359</h3>
+        <table class = "Border" width = "100%">
+            <tr>
+                <th>CS359</th>
+                <th>Βαθμός</th>
+            </tr>
+            <tr>
+                <td>Assignment 1</td>
+                <td>93</td>
+            </tr>
+            <tr>
+                <td>Assignment 2</td>
+                <td>97</td>
+            </tr>
+            <tr>
+                <td>Assignment 3</td>
+                <td>91</td>
+            </tr>
+            <tr>
+                <td>Project</td>
+                <td>85</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="main">
+        <!-- Buttons -->
+        <div>
+            <h2>Στοιχεία Επικοινωνιας</h2>
+            <h5>My Social Media Accounts</h5>
+            <a href="https://www.facebook.com/giannis.somarakis.12" class="fa fa-facebook" style="font-size:24px"></a>
+            <a href="https://www.linkedin.com/in/johnsomarakis" class="fa fa-linkedin" style="font-size:24px"></a>
+            <a href="https://github.com/JohnSomarakis" class="fa fa-github" style="font-size:24px"></a>
+        </div>
+        <!-- Unordered List -->
+        <div>
+            <h2>Αγαπημένες Γλώσσες</h2>
+            <ul class="ulist" >
+                <li>C/C++</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>HTML</li>
+            </ul>
+        </div>
+        <!-- Image -->
+        <div>
+            <img src="RESOURCES/IMAGES/programmingmeme.jpg" alt="Programming Meme" width="700" height="816">
+        </div>
+    </section>
+
+
 </div>
 
-<div class="footer">
-    <h2>Footer</h2>
-</div>
+<br><br><br><br><br>
+
+<footer class="footer">
+    <h2>© 2022 John Somarakis</h2>
+    <p>Version:1.0</p>
+</footer>
 
 </body>
 </html>
