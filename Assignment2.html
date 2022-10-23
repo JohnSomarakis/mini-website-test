@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="/CSS/TopNavigatorBar.css">
     <link rel="stylesheet" href="/CSS/BottomFooter.css">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 
 </head>
 <body>
@@ -83,10 +87,11 @@
     <label for="f_phd">Ph.D</label><br><br>
 
     <label for = "f_Student_id_num">Student Identity Number:</label><br>
-    <input type ="number" id="f_Student_id_num" name="" value=""><br><br>
+    <input type ="number" id="f_Student_id_num" name="f_Student_id_num"
+           pattern=".{12,12}" title="A 12 digits Number"><br><br>
 
     <label for="f_Student_Identity_Start_Date">Student Identity Start Date:</label><br>
-    <input type="date" id="f_Student_Identity_Start_Date" name=""
+    <input type="date" id="f_Student_Identity_Start_Date" name="f_Student_Identity_Start_Date"
            value="2021-01-01"
            min="2016/01/01"><br><br>
 
@@ -108,8 +113,8 @@
            pattern="https?://.+" title="Include http://"><br><br>
 
     <!-- All countries -->
-    <label>Country:</label><br>
-    <label for="f_country"></label><select id="f_country" name="f_country">
+
+    <label for="f_country">Country:</label><br><select id="f_country" name="f_country">
         <option value="Greece">Greece</option>
         <option value="Afghanistan">Afghanistan</option>
         <option value="Aland Islands">Aland Islands</option>
@@ -366,10 +371,16 @@
     </select><br><br>
 
     <label for = "f_town_name">Town Name:</label><br>
-    <input type ="text" id="f_town_name" name="" value=""><br><br>
+    <input type ="text" id="f_town_name" name="f_town_name"
+           pattern=".{3,50}" title="3 to 50 Characters"><br><br>
 
-    <label for = "f_phone_num">Town Name:</label><br>
-    <input type ="tel" id="f_phone_num" name="" value=""><br><br>
+    <label for = "f_address">Home Address:</label><br>
+    <input type ="text" id="f_address" name="f_address"
+           pattern=".{5,50}" title="5 to 50 Characters"><br><br>
+
+    <label for = "f_phone_num">Address:</label><br>
+    <input type ="tel" id="f_phone_num" name="f_phone_num"
+           pattern=".{10,14}" title="10 to 14 digits Number"><br><br>
 
     <label for="f_accept_terms">*I accept Terms and Conditions</label>
     <input type="checkbox" id="f_accept_terms" name="f_accept_terms" required><br><br>

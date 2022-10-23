@@ -34,16 +34,6 @@ body {
     padding: 20px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-
-    background-image: url(https://www.csd.uoc.gr/~wistem2019/_img/CSD04.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding: 60px;
-}
-
 .ulist{
     list-style-type:circle;
     background:#33ccff;
